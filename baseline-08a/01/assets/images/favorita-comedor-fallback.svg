@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 760" role="img" aria-labelledby="t d"><title id="t">Composición de archivo de demo</title><desc id="d">Formas arquitectónicas abstractas en papel y oliva; no representa el comedor real.</desc>
+<rect width="700" height="760" fill="#d8cdbb"/><rect x="48" y="48" width="604" height="664" fill="#eee8dc"/>
+<path d="M92 90h516v390H92z" fill="#59624b"/><path d="M92 90h516v24H92z" fill="#384335"/>
+<g fill="#eee8dc" opacity=".85"><rect x="122" y="144" width="132" height="280"/><rect x="270" y="144" width="132" height="280"/><rect x="418" y="144" width="160" height="280"/></g>
+<g stroke="#a84d35" stroke-width="7" fill="none"><path d="M188 144v280M336 144v280M498 144v280"/></g>
+<path d="M70 520h560v18H70z" fill="#a84d35"/><path d="M118 540h460v80H118z" fill="#384335" opacity=".14"/>
+<text x="90" y="665" font-family="Georgia,serif" font-size="30" fill="#27251f">Archivo visual alternativo</text>
+</svg>

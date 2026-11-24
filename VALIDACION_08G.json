@@ -1,0 +1,53 @@
+{
+  "base": "koldo_miranda_08F_Tripleta_Atmosphere.zip",
+  "protected_previous_code": true,
+  "regressions": {
+    "activation-regression.cjs": {
+      "passed": true,
+      "protocols": [
+        "file:",
+        "https:"
+      ],
+      "one_click_transitions": 12,
+      "duplicate_activation": "deduplicated",
+      "transport_failure": "does not block switching or cache success",
+      "receiver": "parent and origin validation preserved"
+    },
+    "atmosphere-regression.cjs": {
+      "passed": true,
+      "results": [
+        {
+          "id": "01",
+          "intro_does_no_work": true,
+          "idle_has_no_frame_loop": true,
+          "events_coalesce": true,
+          "reduced_and_touch": true,
+          "star_transition_quiet": true,
+          "offscreen_and_inactive_suspend": true,
+          "page_lifecycle": true
+        },
+        {
+          "id": "02",
+          "intro_does_no_work": true,
+          "idle_has_no_frame_loop": true,
+          "events_coalesce": true,
+          "reduced_and_touch": true,
+          "star_transition_quiet": true,
+          "offscreen_and_inactive_suspend": true,
+          "page_lifecycle": true
+        },
+        {
+          "id": "03",
+          "intro_does_no_work": true,
+          "idle_has_no_frame_loop": true,
+          "events_coalesce": true,
+          "reduced_and_touch": true,
+          "star_transition_quiet": true,
+          "offscreen_and_inactive_suspend": true,
+          "page_lifecycle": true
+        }
+      ]
+    }
+  },
+  "visual_scope": "02 desktop first intervention; second CSS specificity pass. Prior 08F visual review retained as historical evidence."
+}

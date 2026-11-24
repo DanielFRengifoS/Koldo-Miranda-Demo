@@ -1,0 +1,26 @@
+/* 08F · Small, event-driven gestures. Nothing above text, media, or controls. */
+.atmosphere-layer{position:absolute;pointer-events:none!important;user-select:none;z-index:-1;opacity:0}
+html[data-intro-status="ready"][data-atmosphere-state="active"] .atmosphere-layer,html[data-intro-status="ready"][data-atmosphere-state="quiet"] .atmosphere-layer{opacity:1}
+/* 01 · Paper fibres stay still. A warm, transparent light pool follows attention. */
+.star-folio[data-atmosphere-host="paper"]{background-image:repeating-linear-gradient(0deg,#70472803 0 1px,transparent 1px 5px),repeating-linear-gradient(91deg,#70472802 0 1px,transparent 1px 11px)}
+.atmos-paper{inset:0;background:radial-gradient(ellipse at 28% 17%,#d9a15b1a 0,#d9a15b0b 35%,transparent 68%);transform:translate3d(var(--atmos-paper-x,0px),var(--atmos-paper-y,0px),0)}
+html[data-atmosphere-state="active"] .atmos-paper{transition:transform 420ms cubic-bezier(.2,.6,.3,1),opacity 650ms ease}
+/* 02 · Ink gathers at the paper edge. No drifting background or idle loop. */
+.atmos-ink{top:18px;bottom:18px;left:7px;width:3px;background:linear-gradient(transparent,#16171440 20%,#16171473 55%,transparent);transform:scaleX(.55);transform-origin:left center}
+.atmos-ink::before,.atmos-ink::after{content:"";position:absolute;left:0;width:9px;height:1px;background:#16171455;top:1px}.atmos-ink::after{top:auto;bottom:1px}
+html[data-intro-status="ready"][data-atmosphere-state="active"] .atmos-ink,html[data-intro-status="ready"][data-atmosphere-state="quiet"] .atmos-ink{opacity:.18}
+html[data-atmosphere-state="active"] .atmos-ink{transition:opacity 320ms ease,transform 320ms ease}
+html[data-intro-status="ready"][data-atmosphere-state="active"] .territory:is(:focus-within,[data-open="true"])>.atmos-ink{opacity:.32;transform:scaleX(.95)}
+@media(hover:hover) and (pointer:fine){html[data-intro-status="ready"][data-atmosphere-state="active"] .territory:hover>.atmos-ink{opacity:.30;transform:scaleX(.9)}}
+/* 03 · Reuse the accepted atlas grid; move its plane only in response to scroll. */
+.hero[data-atmosphere-host="atlas"]{position:relative}
+html[data-intro-status="ready"] .hero[data-atmosphere-host="atlas"]{isolation:isolate}
+html[data-intro-status="ready"][data-atmosphere-state="active"] .hero[data-atmosphere-host="atlas"],html[data-intro-status="ready"][data-atmosphere-state="quiet"] .hero[data-atmosphere-host="atlas"]{background-image:none}
+.atmos-grid{inset:0;overflow:hidden}
+.atmos-grid-plane{position:absolute;inset:-12px;background-image:linear-gradient(transparent 63px,#ffffff0a 64px),linear-gradient(90deg,transparent 63px,#ffffff0a 64px);background-size:64px 64px;background-position:12px 12px;transform:translate3d(0,var(--atmos-grid-y,0px),0)}
+html[data-atmosphere-state="active"] .atmos-grid-plane{transition:transform 360ms cubic-bezier(.2,.6,.3,1)}
+html[data-atmosphere-state="quiet"] .atmos-paper,html[data-atmosphere-state="quiet"] .atmos-grid-plane{transform:none}
+html[data-atmosphere-state="suspended"] .atmosphere-layer{transition:none!important;opacity:0!important}
+@media(max-width:650px){.atmos-paper{background:radial-gradient(ellipse at 25% 15%,#d9a15b14 0,#d9a15b07 33%,transparent 62%)}.atmos-ink{left:5px;width:2px}.atmos-ink::before,.atmos-ink::after{width:6px}}
+@media(prefers-reduced-motion:reduce){.atmosphere-layer,.atmos-grid-plane{transition:none!important;animation:none!important}.atmos-paper,.atmos-grid-plane{transform:none!important}}
+@media print{.atmosphere-layer{display:none!important}.star-folio[data-atmosphere-host="paper"]{background-image:none}}

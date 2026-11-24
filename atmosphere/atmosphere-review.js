@@ -1,0 +1,16 @@
+(function(){'use strict';
+ const labels={'01':'Margen y memoria','02':'Contrapunto','03':'Atlas abierto'};
+ const notes={'01':'01 · Sobre el pliego, el puntero desplaza ligeramente la luz cálida. El scroll la acompaña también en móvil. Las fibras del papel permanecen quietas.','02':'02 · El borde de tinta cobra una presión leve al enfocar, señalar o revelar un cartel. En móvil basta con usar el propio control del relato. El tramado original se conserva.','03':'03 · La retícula del atlas cambia suavemente de plano al desplazarse por el hero. Los textos, ilustraciones y controles permanecen en su posición.'};
+ const frames=[document.getElementById('atmos-before'),document.getElementById('atmos-after')];
+ const q=new URLSearchParams(location.search);let option=labels[q.get('option')]?q.get('option'):'01',width=q.get('size')==='mobile'?390:1440,solo=q.get('layout')==='solo';
+ function activate(f){const state=!document.hidden&&(!solo||f===frames[1])?'active':'inactive';f.contentWindow?.postMessage({type:'gtlai:activation',version:1,state,demo:option,reason:'atmosphere-review'},location.protocol==='file:'?'*':location.origin);}
+ function fit(){frames.forEach(f=>{const scale=Math.min(1,f.parentElement.clientWidth/width);f.style.width=width+'px';f.style.height=(width===390?844:1100)+'px';f.style.transform='scale('+scale+')';f.parentElement.style.height=((width===390?844:1100)*scale)+'px';});}
+ function status(){document.body.classList.toggle('solo',solo);document.body.classList.toggle('mobile',width===390);document.querySelectorAll('[data-option]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.option===option)));document.querySelectorAll('[data-width]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.width===width)));document.querySelectorAll('[data-layout]').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.layout==='solo')===solo)));document.getElementById('atmos-review-state').textContent=option+' · '+labels[option]+' · '+(width===390?'móvil / 390 × 844':'escritorio / 1440 × 1100');document.getElementById('atmos-review-note').textContent=notes[option];}
+ function load(){status();fit();frames.forEach((f,i)=>{f.title=(i?'Atmósfera 08F · ':'Base 08E · ')+labels[option];f.src=(i?'':'baseline-08e/')+option+'/index.html?intro-review=1&intro-frame=end';});document.getElementById('atmos-before-link').href='baseline-08e/'+option+'/index.html';document.getElementById('atmos-after-link').href=option+'/index.html';}
+ frames.forEach(f=>f.addEventListener('load',()=>{fit();activate(f);}));
+ document.querySelectorAll('[data-option]').forEach(b=>b.addEventListener('click',()=>{if(option===b.dataset.option)return;option=b.dataset.option;load();}));
+ document.querySelectorAll('[data-width]').forEach(b=>b.addEventListener('click',()=>{if(width===+b.dataset.width)return;width=+b.dataset.width;load();}));
+ document.querySelectorAll('[data-layout]').forEach(b=>b.addEventListener('click',()=>{solo=b.dataset.layout==='solo';status();fit();frames.forEach(activate);}));
+ document.addEventListener('visibilitychange',()=>frames.forEach(activate));new ResizeObserver(fit).observe(document.querySelector('.comparison-stage'));
+ if(location.search)load();else{status();fit();frames.forEach(activate);}
+})();

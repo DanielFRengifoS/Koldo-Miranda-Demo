@@ -1,0 +1,24 @@
+{
+  "link_svg_errors": [],
+  "protected_files_unchanged": {
+    "index.html": true,
+    "welcome.css": true,
+    "welcome.js": true,
+    "activation-bridge.js": true,
+    "01/assets/js/main.js": true,
+    "02/script.js": true,
+    "03/js/app.js": true,
+    "01/assets/images/favorita-ambiente-fallback.svg": true,
+    "01/assets/images/favorita-comedor-fallback.svg": true,
+    "01/assets/images/favorita-rotulo-fallback.svg": true,
+    "01/assets/images/gallinas-geometria.svg": true,
+    "01/assets/images/hero-archivo.svg": true,
+    "01/assets/images/sacha-referencia-fallback.svg": true,
+    "02/assets/elipse-abierta.svg": true,
+    "03/assets/gallinas-geometria.svg": true,
+    "03/assets/la-favorita-archivo.svg": true
+  },
+  "local_css_resources": "resolved",
+  "svg_count": 40,
+  "javascript_syntax": "passed node --check"
+}

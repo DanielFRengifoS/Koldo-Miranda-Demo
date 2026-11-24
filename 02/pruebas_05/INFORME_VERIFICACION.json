@@ -1,0 +1,188 @@
+[
+  {
+    "name": "desktop-1440",
+    "metrics": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "document": {
+        "width": 1440,
+        "height": 3274
+      },
+      "horizontalOverflow": false,
+      "header": {
+        "height": 55,
+        "identityLines": "nowrap"
+      },
+      "h1": {
+        "text": "Dos territorios. Dos lenguajes.",
+        "x": 44,
+        "y": 144,
+        "width": 536,
+        "height": 194
+      },
+      "firstPanel": {
+        "x": 44,
+        "y": 496,
+        "width": 676,
+        "height": 870
+      },
+      "secondPanel": {
+        "x": 720,
+        "y": 496,
+        "width": 676,
+        "height": 870
+      },
+      "evidenceTitle": {
+        "x": 44,
+        "y": 1548,
+        "width": 749,
+        "height": 126
+      },
+      "imageStates": [
+        {
+          "id": "M005",
+          "state": "fallback-visible",
+          "naturalWidth": 0
+        },
+        {
+          "id": "M001",
+          "state": "fallback-visible",
+          "naturalWidth": 0
+        },
+        {
+          "id": "M008",
+          "state": "fallback-visible",
+          "naturalWidth": 0
+        }
+      ],
+      "localAnchors": [
+        {
+          "text": "Saltar al contenido",
+          "href": "#contenido",
+          "target": true
+        },
+        {
+          "text": "Conocer La Favorita\n↗",
+          "href": "#la-favorita",
+          "target": true
+        },
+        {
+          "text": "Conocer Gallinas y Valientes\n↗",
+          "href": "#gallinas-y-valientes",
+          "target": true
+        },
+        {
+          "text": "Volver a comparar ↑",
+          "href": "#comparacion",
+          "target": true
+        },
+        {
+          "text": "Volver a comparar ↑",
+          "href": "#comparacion",
+          "target": true
+        },
+        {
+          "text": "Comparar propuestas ↑",
+          "href": "#comparacion",
+          "target": true
+        }
+      ]
+    },
+    "page_errors": []
+  },
+  {
+    "name": "mobile-390",
+    "metrics": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 4468
+      },
+      "horizontalOverflow": false,
+      "header": {
+        "height": 49,
+        "identityLines": "nowrap"
+      },
+      "h1": {
+        "text": "Dos territorios. Dos lenguajes.",
+        "x": 18,
+        "y": 112,
+        "width": 237,
+        "height": 88
+      },
+      "firstPanel": {
+        "x": 18,
+        "y": 340,
+        "width": 354,
+        "height": 730
+      },
+      "secondPanel": {
+        "x": 18,
+        "y": 1071,
+        "width": 354,
+        "height": 773
+      },
+      "evidenceTitle": {
+        "x": 18,
+        "y": 1985,
+        "width": 354,
+        "height": 80
+      },
+      "imageStates": [
+        {
+          "id": "M005",
+          "state": "fallback-visible",
+          "naturalWidth": 0
+        },
+        {
+          "id": "M001",
+          "state": "fallback-visible",
+          "naturalWidth": 0
+        },
+        {
+          "id": "M008",
+          "state": "fallback-visible",
+          "naturalWidth": 0
+        }
+      ],
+      "localAnchors": [
+        {
+          "text": "Saltar al contenido",
+          "href": "#contenido",
+          "target": true
+        },
+        {
+          "text": "Conocer La Favorita\n↗",
+          "href": "#la-favorita",
+          "target": true
+        },
+        {
+          "text": "Conocer Gallinas y Valientes\n↗",
+          "href": "#gallinas-y-valientes",
+          "target": true
+        },
+        {
+          "text": "Volver a comparar ↑",
+          "href": "#comparacion",
+          "target": true
+        },
+        {
+          "text": "Volver a comparar ↑",
+          "href": "#comparacion",
+          "target": true
+        },
+        {
+          "text": "Comparar propuestas ↑",
+          "href": "#comparacion",
+          "target": true
+        }
+      ]
+    },
+    "page_errors": []
+  }
+]

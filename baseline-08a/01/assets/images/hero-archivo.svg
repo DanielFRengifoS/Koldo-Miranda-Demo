@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 650" role="img" aria-labelledby="t d">
+<title id="t">Archivo abstracto de demo</title><desc id="d">Composición editorial abstracta en tonos oliva, papel y óxido; no es una fotografía ni representa un espacio real.</desc>
+<rect width="920" height="650" fill="#384335"/>
+<path d="M0 0h920v118H0z" fill="#59624b"/><path d="M0 118h920v9H0z" fill="#c9c0b1" opacity=".55"/>
+<path d="M60 0v650M860 0v650" stroke="#eee8dc" stroke-width="1" opacity=".25"/>
+<rect x="110" y="165" width="700" height="350" fill="#eee8dc" opacity=".94"/>
+<path d="M110 165h700v24H110z" fill="#a84d35"/>
+<path d="M150 245h270v2H150zM150 262h480v1H150zM150 279h380v1H150z" fill="#59624b" opacity=".55"/>
+<text x="150" y="390" fill="#27251f" font-family="Georgia,serif" font-size="118" letter-spacing="-8">K / M</text>
+<text x="154" y="440" fill="#59624b" font-family="Arial,sans-serif" font-size="15" letter-spacing="5">ARCHIVO CONTEXTUAL</text>
+<path d="M0 570c180-52 265-25 410 0s280 30 510-22v102H0z" fill="#a84d35" opacity=".82"/>
+<text x="60" y="615" fill="#eee8dc" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">COMPOSICIÓN ORIGINAL · DEMO</text>
+</svg>

@@ -1,0 +1,28 @@
+/* 08E · Three finite openings. Native STAR geometry is the final keyframe. */
+.intro-shell[hidden]{display:none!important}.intro-shell{position:fixed;inset:0;z-index:60;overflow:hidden;isolation:isolate}.intro-art{position:absolute;inset:0;pointer-events:none}.intro-signature{position:absolute;z-index:3}.intro-signature img{display:block;width:100%;height:auto}.intro-skip{position:absolute;right:24px;bottom:24px;z-index:10;min-height:46px;padding:10px 16px;border:1px solid currentColor;border-radius:0;background:#f7f1e7;color:#33242a;font:13px Grotesk,sans-serif;cursor:pointer}.intro-skip span{margin-left:18px;font:11px Mono,monospace}.intro-skip:focus-visible{outline:3px solid #f6b657;outline-offset:4px}
+html[data-intro-status=armed] .intro-shell{display:block!important}html[data-intro-status=playing] .star-folio,html[data-intro-status=playing] #star-posters,html[data-intro-status=playing] .star-atlas{position:relative;z-index:65;pointer-events:none}html[data-intro-status=playing] .site-header,html[data-intro-status=armed] .site-header,html[data-intro-status=playing] .topbar,html[data-intro-status=armed] .topbar,html[data-intro-status=playing] .masthead,html[data-intro-status=armed] .masthead{position:relative;z-index:80}html[data-intro-status=playing] .intro-shell,html[data-intro-status=armed] .intro-shell{pointer-events:auto}
+.intro-shell-01{color:#f7f1e7}.intro-wine{position:absolute;top:0;bottom:0;width:50.1%;background:#702e40}.intro-wine-left{left:0}.intro-wine-right{right:0}.intro-signature-folio{width:min(40vw,530px);left:50%;top:16%;transform:translateX(-50%)}.intro-thread{position:absolute;inset:0;width:100%;height:100%;z-index:4;color:#f7f1e7;overflow:visible}.intro-small-line{position:absolute;top:66%;left:0;right:0;display:flex;justify-content:center;gap:70px;font:italic clamp(18px,2vw,28px) Editorial,serif}
+.intro-shell-02{color:#f3cbbd}.intro-press-field{position:absolute;inset:0;background:#161714}.intro-signature-press{width:88%;left:6%;top:31%}.intro-press-symbol{position:absolute;left:6%;top:14%;width:74px}.intro-press-symbol img{width:100%}.intro-press-note{position:absolute;left:6%;top:55%;font:16px Mono,monospace;text-transform:uppercase;letter-spacing:.09em}.intro-press-registration{position:absolute;background:#bd3425;z-index:4}.registration-a{height:5px;width:88%;left:6%;top:26%}.registration-b{height:5px;width:88%;left:6%;top:52%}.registration-c{width:5px;height:64%;left:50%;top:13%}
+.intro-shell-03{color:#f3f5f8}.intro-atlas-field{position:absolute;inset:0;background:#123fd4}.intro-signature-atlas{left:12%;top:35%;width:76%}.intro-atlas-note{position:absolute;left:12%;top:56%;font:13px Mono,monospace;letter-spacing:.06em}.intro-atlas-corner{position:absolute;width:84px;height:84px;color:#f6b657;z-index:5}.corner-a{left:8%;top:24%}.corner-b{right:8%;top:58%}.intro-grid-line{position:absolute;background:#f3f5f8;opacity:.3}.grid-line-a{left:8%;width:1px;height:100%}.grid-line-b{right:8%;width:1px;height:100%}.grid-line-c{top:50%;height:1px;width:100%}.intro-grid-rule{position:absolute;inset:8%;border:1px solid #f3f5f84d}
+@media(max-width:640px){.intro-skip{right:16px;bottom:16px}.intro-signature-folio{width:78%;top:26%}.intro-small-line{top:63%;gap:22px;font-size:17px}.intro-signature-press{top:36%;width:90%;left:5%}.intro-press-symbol{top:19%;width:58px;left:5%}.intro-press-note{top:52%;left:5%;font-size:10px}.registration-a{top:31%;left:5%;width:90%}.registration-b{top:48%;left:5%;width:90%}.registration-c{top:22%;height:40%}.intro-signature-atlas{left:8%;width:84%;top:40%}.intro-atlas-note{left:8%;top:51%;font-size:10px}.intro-atlas-corner{width:56px;height:56px}.corner-a{top:29%}.corner-b{top:58%}}
+@media(prefers-reduced-motion:reduce){.intro-shell{display:none!important}}
+
+body>.intro-skip{display:none;position:fixed;z-index:95}html[data-intro-status=armed] body>.intro-skip,html[data-intro-status=playing] body>.intro-skip{display:block}@media(prefers-reduced-motion:reduce){body>.intro-skip{display:none!important}}
+
+html[data-intro-id="03"][data-intro-status="playing"] .masthead,html[data-intro-id="03"][data-intro-status="armed"] .masthead{background:#f3f5f8}
+
+html[data-intro-status="playing"],html[data-intro-status="playing"] body{overflow-x:clip}
+
+/* Bugfix02: promote only the small moving brand layers during an opening. */
+html[data-intro-status="playing"][data-intro-id="01"] .intro-signature-folio,html[data-intro-status="armed"][data-intro-id="01"] .intro-signature-folio{will-change:translate,opacity}
+html[data-intro-status="playing"][data-intro-id="02"] .intro-signature-press,html[data-intro-status="armed"][data-intro-id="02"] .intro-signature-press,html[data-intro-status="playing"][data-intro-id="02"] .intro-press-symbol,html[data-intro-status="armed"][data-intro-id="02"] .intro-press-symbol{will-change:transform,opacity}
+
+/* Intro 01 starts with its title present; armed and first keyframe match. */
+html[data-intro-status="armed"] .intro-signature-folio{opacity:1;translate:0 0}
+
+/* Match intro 02’s first keyframe before the animation script loads.
+   WAAPI overrides this base clip during playback. */
+.intro-signature-press{clip-path:inset(0 100% 0 0)}
+
+/* Match the subtitle’s hidden first keyframe before script activation. */
+.intro-small-line{opacity:0}

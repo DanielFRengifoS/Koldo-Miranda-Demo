@@ -1,0 +1,42 @@
+(() => {
+  const labels = { '01': 'Margen y memoria', '02': 'Contrapunto', '03': 'Atlas abierto' };
+  let option = '01';
+  let width = 1440;
+  const frames = [document.getElementById('before'), document.getElementById('after')];
+  function fit() {
+    frames.forEach(frame => {
+      const scale = Math.min(1, frame.parentElement.clientWidth / width);
+      frame.style.width = `${width}px`;
+      frame.style.height = width === 390 ? '844px' : '1100px';
+      frame.style.transform = `scale(${scale})`;
+      frame.parentElement.style.height = `${(width === 390 ? 844 : 1100) * scale}px`;
+    });
+  }
+  function showOption(next) {
+    if (!labels[next]) return;
+    if (next === option && frames[1].getAttribute('src') === `${option}/index.html`) return;
+    option = next;
+    frames[0].src = `baseline-08c/${option}/index.html`;
+    frames[1].src = `${option}/index.html`;
+    document.getElementById('old-link').href = frames[0].getAttribute('src');
+    document.getElementById('new-link').href = frames[1].getAttribute('src');
+    document.querySelectorAll('[data-option]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.option === option)));
+    status();
+  }
+  function status() {
+    document.getElementById('review-state').textContent = `${labels[option]} · ${width === 390 ? 'móvil / 390 × 844' : 'escritorio / 1440 × 1100'}`;
+  }
+  document.querySelectorAll('[data-option]').forEach(b => b.addEventListener('click', () => showOption(b.dataset.option)));
+  document.querySelectorAll('[data-width]').forEach(b => b.addEventListener('click', () => {
+    width = Number(b.dataset.width);
+    document.body.classList.toggle('mobile', width === 390);
+    document.querySelectorAll('[data-width]').forEach(control => control.setAttribute('aria-pressed', String(Number(control.dataset.width) === width)));
+    fit(); status();
+  }));
+  new ResizeObserver(fit).observe(document.querySelector('.comparison-stage'));
+  frames.forEach(frame => frame.addEventListener('load', () => {
+    fit();
+    frame.contentWindow?.postMessage({type:'gtlai:activation',version:1,state:'active',demo:option,reason:'star-review-visible'}, location.protocol === 'file:' ? '*' : location.origin);
+  }));
+  fit(); status();
+})();

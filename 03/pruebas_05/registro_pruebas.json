@@ -1,0 +1,118 @@
+{
+  "source": "Extracción limpia del ZIP; HTML/CSS/JS y SVG locales cargados en Chromium como vista aislada porque la política del navegador bloqueó file:// y loopback HTTP.",
+  "relative_asset_paths_verified": [
+    {
+      "path": "css/styles.css",
+      "exists": true,
+      "bytes": 16906
+    },
+    {
+      "path": "js/app.js",
+      "exists": true,
+      "bytes": 3744
+    },
+    {
+      "path": "assets/la-favorita-archivo.svg",
+      "exists": true,
+      "bytes": 3243
+    },
+    {
+      "path": "assets/gallinas-geometria.svg",
+      "exists": true,
+      "bytes": 1481
+    }
+  ],
+  "viewports": {
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "cards": [
+        {
+          "x": 18,
+          "y": 260.5,
+          "width": 354,
+          "height": 150
+        },
+        {
+          "x": 18,
+          "y": 420.5,
+          "width": 354,
+          "height": 150
+        }
+      ],
+      "horizontal_overflow": false,
+      "images": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My",
+          "complete": true,
+          "naturalWidth": 178,
+          "naturalHeight": 150
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My",
+          "complete": true,
+          "naturalWidth": 178,
+          "naturalHeight": 150
+        }
+      ],
+      "console_errors": [],
+      "both_cards_visible_in_first_viewport": true,
+      "cards_bottom_y": 570.5,
+      "context_visible_after_favorita": true,
+      "context_title_after_favorita": "La Favorita",
+      "favorita_detail_anchor": "#detalle-favorita",
+      "compare_anchor": "#comparar",
+      "context_title_after_gallinas": "Gallinas y Valientes",
+      "gallinas_pending_text": "La nota no confirma receta, ingredientes, carta, precios, dirección exacta, horarios ni experiencia actual."
+    },
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "cards": [
+        {
+          "x": 60,
+          "y": 425.28125,
+          "width": 651,
+          "height": 354
+        },
+        {
+          "x": 729,
+          "y": 425.28125,
+          "width": 651,
+          "height": 354
+        }
+      ],
+      "horizontal_overflow": false,
+      "images": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My",
+          "complete": true,
+          "naturalWidth": 178,
+          "naturalHeight": 150
+        },
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My",
+          "complete": true,
+          "naturalWidth": 178,
+          "naturalHeight": 150
+        }
+      ],
+      "console_errors": [],
+      "context_title_after_gallinas": "Gallinas y Valientes",
+      "compare_anchor_after_click": "#comparar"
+    }
+  },
+  "no_js": {
+    "favorita_detail_visible": true,
+    "gallinas_detail_visible": true,
+    "comparison_visible": true,
+    "favorita_link_href": "#detalle-favorita",
+    "gallinas_link_href": "#detalle-gallinas",
+    "hash_after_gallinas_link": "#detalle-gallinas"
+  },
+  "checks": []
+}

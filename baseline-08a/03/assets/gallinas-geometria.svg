@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title desc">
+  <title id="title">Geometría editorial abstracta</title>
+  <desc id="desc">Composición geométrica original con un óvalo, planos y un gesto diagonal. No representa una tortilla, receta, plato ni local.</desc>
+  <rect width="900" height="760" fill="#20362F"/>
+  <path d="M42 42H858V718H42Z" fill="none" stroke="#D8C9AF" stroke-width="2" opacity=".38"/>
+  <path d="M100 630L390 108H782L492 630Z" fill="#2B443B"/>
+  <path d="M126 630L415 108" stroke="#D5AD63" stroke-width="3" opacity=".85"/>
+  <path d="M508 96C667 96 790 220 790 380S667 664 508 664 226 540 226 380 349 96 508 96Z" fill="none" stroke="#E7DECE" stroke-width="4" opacity=".82"/>
+  <path d="M508 144C640 144 744 248 744 380S640 616 508 616 272 512 272 380 376 144 508 144Z" fill="#2B443B" stroke="#BB654B" stroke-width="8"/>
+  <path d="M156 546L588 114" stroke="#BB654B" stroke-width="34" stroke-linecap="square"/>
+  <path d="M184 574L616 142" stroke="#D5AD63" stroke-width="4"/>
+  <path d="M614 588L784 418" stroke="#E7DECE" stroke-width="2" opacity=".65"/>
+  <circle cx="690" cy="174" r="12" fill="#D5AD63"/>
+  <circle cx="178" cy="206" r="5" fill="#E7DECE" opacity=".75"/>
+  <path d="M82 82H236M664 678H818" stroke="#E7DECE" stroke-width="2" opacity=".65"/>
+  <text x="84" y="688" fill="#E7DECE" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="5">CAMPO / CORTE / CALOR</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-labelledby="t d"><title id="t">Referencia externa no disponible</title><desc id="d">Composición abstracta original para señalar una referencia externa no cargada; no representa una tortilla ni un plato.</desc>
+<rect width="700" height="700" fill="#e2d9c9"/><circle cx="350" cy="350" r="245" fill="#59624b"/><circle cx="350" cy="350" r="178" fill="#eee8dc"/><circle cx="350" cy="350" r="96" fill="#a84d35"/>
+<path d="M95 350h510M350 95v510" stroke="#27251f" stroke-width="2" opacity=".5"/><path d="M165 165l370 370M535 165L165 535" stroke="#27251f" stroke-width="1" opacity=".35"/>
+<text x="350" y="660" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing="3" fill="#27251f">REFERENCIA EXTERNA NO CARGADA</text>
+</svg>

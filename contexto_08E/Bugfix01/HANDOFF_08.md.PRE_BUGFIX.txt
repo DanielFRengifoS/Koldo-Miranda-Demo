@@ -1,0 +1,46 @@
+# Handoff 08 · Koldo Miranda
+
+**Entrega vigente:** 08E · Tripleta Intros. **Base efectiva:** `koldo_miranda_08C_Tripleta_STAR.zip`, última entrega disponible en la conversación. **No se recibió 08D:** no se atribuyen a esta entrega cambios o aprobación de esa etapa. Se conserva la navegación de 08C. **Estado:** demo interna pendiente de validación del cliente. No publicar ni enviar.
+
+## Abrir y revisar
+
+Servir la carpeta descomprimida por HTTP local; por ejemplo, `python3 -m http.server 8000`. Abrir `intro-review.html` para comparar apertura, momento central y llegada en escritorio/móvil, o reproducir cada secuencia completa. `index.html` conserva la bienvenida y selector GTL AI. `design-review.html` compara la base 08C con la entrega 08E; `brand-lab.html` conserva 08A. No hay backend ni dependencias por instalar. Usar HTTP para el contrato de mensajes entre iframes; no depender de `file://`.
+
+## Continuidad acumulada
+
+| Opción | Branding 08A | Diseño y STAR 08B/08C preservados | Apertura 08E | Navegación preservada |
+|---|---|---|---|---|
+| 01 · Margen y memoria | Tinta vino, firma romana/cursiva, KM abierto | Portada editorial, pliego con pestañas H01/H02, retrato M006 y capítulos | Un hilo se vuelve lomo; el pliego real abre su plano en perspectiva · 4,1 s | Cabecera, capítulos LF/GV, comparación, fuentes y retornos |
+| 02 · Contrapunto | Condensada, negro/rojo/rosa/lima | Díptico y reversos documentales independientes, medios M005/M001/M008 | Impresión por pasos y carteles en contrapunto · 3,7 s | Enlaces originales `.poster-more`, comparación, detalles y retornos |
+| 03 · Atlas abierto | Cobalto, firma geométrica y marcos | Atlas con conjunto/focos, ilustraciones, tarjetas y contexto | Las piezas del símbolo trazan el atlas y alinean sus territorios · 4,2 s | Rutas LF/GV, contexto, comparación y detalles |
+
+Las animaciones transforman nodos del STAR original; no se sustituye por una maqueta. Al finalizar se cancelan los efectos temporales para conservar su geometría e interacción. Los CSS/JS de marca, diseño y STAR permanecen sin cambios de archivo.
+
+## Entrada y activación
+
+Solo se reproduce al activarse visualmente la opción. La precarga queda armada, sin animaciones. Salir cancela efectos y temporizadores; regresar repite una vez, conservando la selección anterior del STAR. Pulsar la pestaña ya activa no repite. El hub, su bienvenida y su puente de activación conservan sus archivos originales.
+
+La secuencia puede omitirse con botón o Escape. Tab y la intención de desplazamiento/clic dejan continuar inmediatamente; no hay captura de foco. Movimiento reducido, ausencia de Web Animations o ausencia de JS muestran lectura estática. La cubierta crítica tiene salida de emergencia si no llega el controlador. Las fotos no bloquean el comienzo ni la salida.
+
+Entrada directa sin ancla: intro normal. Primera entrada con ancla: lectura estática en el destino. Regresar desde el selector reproduce al inicio bajo cubierta; mantiene el estado seleccionado del STAR, aunque el usuario estuviera antes en una sección inferior. Se documenta este comportamiento para futuras etapas.
+
+## Contenido y medios protegidos
+
+Solo H01 y H02, ambos narrativos; no son premios. El conjunto del atlas no añade un highlight. Koldo Miranda sigue como firma editorial: no se afirma grupo, propiedad, marca paraguas, carta compartida, equipo o local común.
+
+- H01 conserva E001–E004/E013/E014 y el territorio público de ultramarinos, cocina española y tapas, sin confirmar carta o estado actual.
+- H02 conserva E007–E009 y la asociación periodística con la tortilla vaga. No se confirma receta, colaboración, ingredientes, presentación ni carta.
+- M001/M005/M006/M008 mantienen sus URLs remotas, créditos, fechas y límites. No se descargan ni redistribuyen fotos de prensa como activos del cliente.
+- M007 continúa únicamente como referencia externa de Sacha en su bloque original; no entra en el STAR ni en las intros.
+- Los SVG abstractos son originales de demo; no representan un plato, un local, una receta o un plano real. Las intros no añaden imágenes de platos ni interiores.
+- No se añaden premios, Michelin 2006, biografía no documentada, precios, horarios, reservas, testimonios, servicios o disponibilidad.
+
+## Archivos y comprobación
+
+Nuevos: `intro/intro-08e.css`, `intro/intro-08e.js`, `intro/intro-review.js`, `intro-review.html`, `README_08E.md`, `INTRO_SYSTEM_08E.md`, `VERIFICACION_08E.md`, `VALIDACION_ESTATICA_08E.json`, `MANIFEST_SHA256_08E.txt`. Los tres HTML incorporan la cubierta y sus recursos. La comparación se actualiza a 08C/08E. `baseline-08c/` conserva fuente exacta suficiente para reproducir la base, junto a los baselines históricos 08A/08B.
+
+Se revisaron los tres momentos en ambos tamaños, las seis reproducciones completas, las tres entradas directas, omisión, reactivación, selección persistente, precarga detenida y duplicación de activación. Las variantes de reducción de movimiento y ausencia de scripts se comprobaron con fixtures controlados; no equivalen a preferencias nativas ni a deshabilitar globalmente JavaScript. Consultar `VERIFICACION_08E.md` para resultados y límites precisos.
+
+`contexto_08E/` conserva el encargo, el handoff 08C y el código histórico de la comparación como texto. Los informes y capturas de etapas anteriores son históricos. La evidencia original y el inventario E001–E018 siguen en `contexto_08A/01_Paquete_Canonico/`. Esta revisión no concede aprobación del cliente ni permisos de publicación de imágenes.
+
+Sin publicación ni envío externo.

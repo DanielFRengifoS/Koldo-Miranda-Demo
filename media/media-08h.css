@@ -1,0 +1,86 @@
+/* 08H · Photographs keep their colour; each layout keeps its own voice. */
+.curated-photo,.curated-film{margin:0;min-width:0}
+.curated-photo>img{display:block;width:100%;height:auto;object-fit:cover}
+.curated-photo figcaption{display:flex;justify-content:space-between;gap:12px;padding:12px 0;font:12px/1.5 Grotesk,Arial,sans-serif}
+.curated-photo figcaption a{font-size:11px;color:inherit;white-space:nowrap;text-underline-offset:3px}
+.curated-film{--film-accent:#702e40;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.7fr);gap:28px;align-items:center}
+.film-screen{min-width:0;background:#171713;overflow:hidden}
+.curated-film video{display:block;width:100%;height:auto;aspect-ratio:9/16;max-height:650px;object-fit:contain;background:#171713}
+.curated-film figcaption{min-width:0;padding:12px 0}
+.curated-film .film-label{display:block;font:11px/1.5 Mono,monospace;letter-spacing:.1em;color:var(--film-accent);margin-bottom:18px}
+.curated-film figcaption h3{font:normal clamp(26px,3vw,42px)/1.07 Editorial,Georgia,serif;letter-spacing:-.035em;margin:0 0 16px}
+.curated-film figcaption p{font:15px/1.6 Grotesk,Arial,sans-serif;max-width:30ch;margin:0 0 20px}
+.curated-film figcaption a{font:12px/1.5 Grotesk,Arial,sans-serif;color:inherit;text-underline-offset:4px}
+.curated-press{border-top:1px solid currentColor;margin-top:28px;padding-top:12px;min-width:0}
+.curated-press>summary{cursor:pointer;font:12px/1.5 Mono,monospace;padding:12px 0;min-height:44px}
+.curated-press>summary span{margin-left:12px;opacity:.75}
+.curated-press .curated-film{display:block;padding-top:20px}
+.curated-press video{aspect-ratio:16/9;max-height:none}
+.curated-press figcaption h3{font-size:24px}
+.curated-press figcaption p{max-width:none}
+.curated-source-note{max-width:1280px;margin:40px auto;padding:20px 28px;border-top:1px solid #8886;font:12px/1.6 Grotesk,Arial,sans-serif;color:inherit;opacity:.75}
+/* 01 · A photographic folio, then two small films in the reading rhythm. */
+.media-08h .star-folio .curated-photo>img{height:365px;object-fit:cover;object-position:center 55%;filter:none}
+.media-08h .star-folio .curated-photo figcaption{font-size:12px}
+.media-08h .portrait-archive{max-width:360px;margin:auto}
+.media-08h .portrait-archive>img{height:auto;aspect-ratio:auto;object-fit:contain}
+.media-08h .photo-sign>img{aspect-ratio:4/5;object-fit:cover}
+.media-08h .photo-atmosphere>img{max-height:550px;aspect-ratio:5/4;object-fit:cover;object-position:center 40%}
+.media-08h .folio-film{display:block}
+.media-08h .folio-film video{max-height:630px}
+.media-08h .folio-film figcaption h3{font-size:32px}
+.media-08h .folio-film figcaption p{max-width:none}
+.media-08h .campaign-art>img{aspect-ratio:auto;height:auto;object-fit:contain}
+.media-08h .curated-story{margin:56px 0;padding:36px 0;border-block:1px solid #702e4050}
+.media-08h .story-film{grid-template-columns:minmax(0,.85fr) minmax(0,1fr);gap:56px}
+/* 02 · Saturated still life against graphic campaign ink. */
+.brand-system-02.media-08h .curated-photo.photo{overflow:hidden}
+.brand-system-02.media-08h .curated-photo.photo img{filter:none;width:100%;height:100%;object-fit:cover;mix-blend-mode:normal}
+.brand-system-02.media-08h .curated-photo.photo figcaption{padding:10px;background:#161714e8;color:#f7f1e7;gap:4px;flex-wrap:wrap}
+.brand-system-02.media-08h .poster-campaign{background:#151714;max-width:100%;padding:14px}
+.brand-system-02.media-08h .poster-campaign>img{width:100%;height:410px;object-fit:contain;filter:none}
+.brand-system-02.media-08h .poster-campaign figcaption{font:11px/1.4 Mono,monospace;color:#f2eadc;flex-wrap:wrap}
+.brand-system-02.media-08h .detail .curated-film{display:block;margin-top:30px;--film-accent:currentColor}
+.brand-system-02.media-08h .detail video{max-height:580px}
+.brand-system-02.media-08h .curated-film figcaption h3{font-family:Display,Arial,sans-serif;font-weight:700;text-transform:uppercase;font-size:30px}
+.brand-system-02.media-08h .curated-film figcaption p{max-width:none}
+/* 03 · Real textures inside the existing expandable atlas. */
+.brand-system-03.media-08h .atlas-region-image img{filter:none;object-fit:cover;object-position:center 42%}
+.brand-system-03.media-08h .atlas-region-h02 .atlas-region-image img{object-position:center 30%}
+.brand-system-03.media-08h .atlas-large-type{font-size:clamp(26px,5.8vw,80px);margin-top:4px}
+.brand-system-03.media-08h .curated-film.detail-visual{display:block;--film-accent:currentColor}
+.brand-system-03.media-08h .curated-film video{max-height:620px}
+.brand-system-03.media-08h .curated-film figcaption h3{font-family:Atlas,Arial,sans-serif;font-size:30px;font-weight:700}
+.brand-system-03.media-08h .curated-film figcaption p{max-width:none}
+.brand-system-03.media-08h .curated-pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px}
+.brand-system-03.media-08h .curated-pair img{aspect-ratio:4/5;object-fit:cover;max-height:500px}
+.brand-system-03.media-08h .route-art img[src*='gyv-lettering']{object-fit:contain;background:#080908;filter:none}
+.brand-system-03.media-08h #context-image[src*='/media/']{object-fit:contain;filter:none}
+@media(max-width:650px){
+ .curated-photo figcaption{font-size:11px;flex-wrap:wrap;gap:4px}
+ .curated-film,.media-08h .story-film{display:block}
+ .curated-film video{max-height:560px}
+ .curated-film figcaption h3{font-size:30px}
+ .curated-film figcaption p{max-width:none}
+ .media-08h .star-folio .curated-photo>img{height:300px;object-position:center 45%}
+ .media-08h .curated-story{margin:30px 0;padding:24px 0}
+ .media-08h .photo-atmosphere>img{aspect-ratio:4/5;max-height:none}
+ .brand-system-02.media-08h .poster-campaign>img{height:350px}
+ .brand-system-03.media-08h .atlas-large-type{font-size:clamp(19px,5.1vw,32px)}
+ .brand-system-03.media-08h .curated-pair{gap:12px}
+ .curated-press>summary span{display:block;margin-left:18px}
+ .curated-source-note{padding:20px;margin-top:24px}
+}
+/* Local images are ready independently of the legacy remote-image loader. */
+.brand-system-02.media-08h .curated-photo.photo img{opacity:1}
+/* Keep the chef's face inside the wide atlas crop. */
+.brand-system-03.media-08h .atlas-region-h02 .atlas-region-image img{object-position:center 5%}
+.media-08h #folio-panel-h02 .curated-photo>img{object-position:center 10%}
+
+/* The replacement is a room composition, not a face crop. */
+.brand-system-03.media-08h .atlas-region-h02 .atlas-region-image img,.media-08h #folio-panel-h02 .curated-photo>img{object-position:center 50%}
+.brand-system-03.media-08h .atlas-region-h02 .atlas-large-type{font-size:clamp(19px,4.7vw,66px)}
+
+/* Photographic route cards: fill the image column without filters or letterboxing. */
+.brand-system-03.media-08h .atlas-routes .route-art img{position:absolute;inset:0;width:100%;height:100%;min-height:0;object-fit:cover;filter:none;object-position:center 48%}
+.brand-system-03.media-08h .atlas-routes .route-card-gallinas .route-art img{object-position:center 48%}

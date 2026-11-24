@@ -1,0 +1,42 @@
+@import url('../../../brand/type.css');
+:root{--paper:#f7f1e7;--paper-light:#fffaf2;--paper-deep:#e7dbcf;--ink:#33242a;--muted:#6d5860;--olive:#702e40;--olive-dark:#702e40;--oxide:#702e40;--line:#d5c5c2;--line-dark:#a88b8f;--serif:Editorial,Georgia,serif;--sans:Grotesk,Arial,sans-serif;--page:min(1320px,calc(100% - 112px))}
+body{background-image:none}
+.demo-ribbon{padding:7px 56px;min-height:30px;font-size:12px;letter-spacing:.08em;background:#702e40}
+.site-header{background:rgba(247,241,231,.97);backdrop-filter:none}
+.header-inner{min-height:80px}
+.wordmark{display:flex;align-items:center;gap:16px;letter-spacing:0}
+.header-symbol{width:51px;height:40px;object-fit:contain}
+.wordmark .header-name{font:400 27px/1 var(--serif);color:var(--ink)}
+.main-nav{gap:32px}.main-nav a{font-size:14px;letter-spacing:0;text-transform:none}
+.hero{grid-template-columns:minmax(0,1fr) minmax(0,.93fr);gap:64px;align-items:start;padding-top:46px;padding-bottom:64px;min-height:0}
+.hero-copy{padding:0;max-width:none}
+.hero .eyebrow{font:12px/1.4 Mono,monospace;letter-spacing:.035em;margin-bottom:26px}
+.hero-signature{display:block;width:min(91%,475px);height:auto;margin:0 0 24px -3px}
+.hero h1{font-size:clamp(34px,3.1vw,47px);line-height:1;letter-spacing:-.035em;margin-bottom:20px}
+.hero h1 em{color:var(--ink)}
+.brand-chapters{display:flex;gap:0;align-items:center;font:italic 23px/1.2 var(--serif);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:13px 0;margin:0 0 22px}
+.brand-chapters span{flex:1}.brand-chapters span+span{padding-left:17px;border-left:1px solid var(--line)}
+.hero-lead{font-size:16px;line-height:1.6;max-width:520px;color:var(--muted)}
+.hero-actions{margin-top:24px;gap:18px}.button{font-size:14px;font-weight:400;letter-spacing:0;min-height:50px;padding-inline:18px}.hero-note{font-size:12px;max-width:175px;line-height:1.5}
+.hero-index{font:12px/1.5 Mono,monospace;letter-spacing:0;margin-top:27px}
+.hero-portrait{padding:20px 0 0 20px;border-left:1px solid var(--line)}
+.image-frame-portrait{aspect-ratio:1/1.16;background:#702e40}
+.image-frame-portrait img{object-position:59% 45%}
+.image-frame-portrait::after{content:'';position:absolute;inset:12px;border:1px solid #fff6;pointer-events:none}
+.image-corner-label{font:12px/1.3 Mono,monospace;letter-spacing:0;background:#33242ae8}
+.caption-main{font-size:20px}.caption-credit,.image-status{font-size:12px;line-height:1.5}.hero-portrait figcaption{gap:5px;padding-top:13px}
+.thread-intro{padding-top:56px}.chapter-brand{width:72px;margin:0 auto 40px}.thread-index{font:12px/1.5 Mono,monospace;letter-spacing:.04em}
+.thread-copy p,.chapter-deck,.editorial-copy p:not(.source-kicker),.gallinas-copy>p:not(.source-kicker),.comparison-panel>p,.sources-content>p{font-size:16px;line-height:1.65}
+.thread-copy .small-note{font-size:14px}.chapter-deck{max-width:390px}.eyebrow,.source-kicker{font-size:12px;letter-spacing:.07em}.editorial-copy .editorial-footnote{font-size:14px}
+.gallinas-art{background:#702e40}.gallinas-art img{filter:grayscale(1)}.gallinas-art figcaption{font-size:12px}
+.highlight{background:#702e40}.highlight-gallinas{background:#33242a}.highlight-label{font-size:12px;letter-spacing:.035em}.highlight-label span:first-child{color:#f6d3b8}.highlight-content .eyebrow{color:#f6d3b8}.highlight-content p:last-child{font-size:16px}.highlight-limit{font-size:12px}.highlight-content h3{font-size:46px}.highlight-mark{display:none}
+.chapter-return a,.text-link{font-size:14px;letter-spacing:0;text-transform:none}.comparison-status p,.comparison-footnote,.verification-note p,.external-warning p{font-size:14px}.comparison-panel-top{font-size:14px}
+.source-list a,.limits-grid>div>span{font-size:12px}.limits-grid p{font-size:14px}.site-footer p,.back-top{font-size:12px}.site-footer{background:#33242a}.footer-wordmark{font:32px/1 var(--serif);letter-spacing:0}
+@media(max-width:900px){:root{--page:calc(100% - 48px)}.demo-ribbon{padding-inline:24px}.hero{gap:30px}.hero-portrait{padding-left:14px}.hero-signature{width:100%}.brand-chapters{font-size:19px}.main-nav a{font-size:12px}}
+@media(max-width:650px){:root{--page:calc(100% - 40px)}.demo-ribbon{padding:6px 20px;font-size:12px;gap:15px}.demo-ribbon span:last-child{font-size:12px;letter-spacing:0;max-width:210px;text-align:right}.header-inner{min-height:68px;gap:14px}.header-symbol{width:39px;height:33px}.wordmark{gap:10px}.wordmark .header-name{font-size:23px}.menu-toggle-label{font-size:14px}.hero{display:flex;flex-direction:column;gap:32px;padding-top:28px;padding-bottom:40px}.hero-copy{width:100%}.hero .eyebrow{font-size:12px;margin-bottom:20px}.hero-signature{width:91%;margin-bottom:22px}.hero h1{font-size:35px}.brand-chapters{font-size:20px;margin-bottom:18px;gap:12px}.brand-chapters span+span{padding-left:12px}.hero-lead{font-size:16px;line-height:1.55}.hero-actions{margin-top:22px}.hero-note{font-size:12px}.hero-index{font-size:12px;margin-top:25px}.hero-portrait{padding:0;border:none;width:100%}.image-frame-portrait{aspect-ratio:1/1.08}.caption-main{font-size:20px}.caption-credit,.image-status{font-size:12px}.thread-intro{padding-top:40px}.thread-body h2{font-size:43px}.thread-copy p{font-size:16px}.chapter-heading h2{font-size:43px}.chapter-deck{font-size:16px}.highlight{padding:23px}.highlight-label{font-size:12px;gap:12px}.highlight-content h3{font-size:34px}.highlight-limit{font-size:12px}.chapter-return a,.text-link{font-size:14px}.comparison-panel h3{font-size:30px}.sources-content .source-list a{font-size:12px}.source-list a{overflow-wrap:anywhere}.site-footer p{font-size:12px}.main-nav a{font-size:16px}.hero h1 em{color:var(--ink)}}
+
+.image-frame-portrait{background-image:url(../images/brand-fallback.svg);background-size:cover;background-position:center}
+.image-frame-portrait{background-size:contain;background-repeat:no-repeat}
+.image-frame-portrait img[data-fallback-applied='true']{object-fit:contain;object-position:center}
+.image-frame-portrait:has(img[data-fallback-applied='true']) .image-corner-label{visibility:hidden}
+.image-frame-portrait:has(img[data-fallback-applied='true'])::before{content:'ARTE TIPOGRÁFICO · DEMO';position:absolute;left:20px;bottom:24px;z-index:2;font:12px/1.5 Mono,monospace;letter-spacing:0;color:#f7f1e7}

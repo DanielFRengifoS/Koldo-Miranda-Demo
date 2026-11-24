@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title desc">
+  <title id="title">Archivo editorial de ultramarinos</title>
+  <desc id="desc">Ilustración original de una puerta arqueada y estanterías dibujadas, como metáfora del imaginario de ultramarinos. No representa el local real.</desc>
+  <rect width="900" height="760" fill="#D8C9AF"/>
+  <path d="M36 36H864V724H36Z" fill="none" stroke="#1C2924" stroke-width="2" opacity=".42"/>
+  <path d="M112 724V250C112 129 210 70 330 70H570C690 70 788 129 788 250V724" fill="#E7DECE" stroke="#1C2924" stroke-width="5"/>
+  <path d="M154 724V258C154 158 232 112 333 112H567C668 112 746 158 746 258V724" fill="none" stroke="#BB654B" stroke-width="3"/>
+  <path d="M450 112V724" stroke="#1C2924" stroke-width="2" opacity=".32"/>
+  <path d="M190 280H710M190 435H710M190 590H710" stroke="#1C2924" stroke-width="5"/>
+  <path d="M190 292H710M190 447H710M190 602H710" stroke="#BB654B" stroke-width="2" opacity=".7"/>
+  <g fill="none" stroke="#1C2924" stroke-width="4">
+    <rect x="224" y="204" width="46" height="68" rx="5"/><path d="M234 204V190H260V204M235 236H259"/>
+    <rect x="292" y="220" width="58" height="52" rx="4"/><path d="M304 220V207H338V220M301 244H341"/>
+    <rect x="376" y="195" width="40" height="77" rx="5"/><path d="M386 195V181H406V195M383 228H409"/>
+    <path d="M493 272V217Q493 203 507 203H537Q551 203 551 217V272Z"/><path d="M503 203V188H541V203"/>
+    <rect x="585" y="211" width="52" height="61" rx="4"/><path d="M595 211V198H627V211M592 238H630"/>
+    <rect x="661" y="226" width="32" height="46" rx="4"/><path d="M667 226V215H687V226"/>
+    <path d="M220 428V363Q220 348 235 348H269Q284 348 284 363V428Z"/><path d="M231 348V333H273V348"/>
+    <rect x="318" y="372" width="58" height="56" rx="4"/><path d="M330 372V359H364V372M327 398H367"/>
+    <path d="M408 428V359Q408 345 422 345H453Q467 345 467 359V428Z"/><path d="M418 345V330H457V345"/>
+    <rect x="504" y="378" width="42" height="50" rx="4"/><path d="M514 378V365H536V378"/>
+    <path d="M581 428V363Q581 349 595 349H629Q643 349 643 363V428Z"/><path d="M592 349V334H632V349"/>
+    <rect x="674" y="385" width="28" height="43" rx="4"/><path d="M679 385V373H697V385"/>
+    <path d="M220 583V520Q220 506 234 506H269Q283 506 283 520V583Z"/><path d="M231 506V491H272V506"/>
+    <rect x="314" y="525" width="54" height="58" rx="4"/><path d="M326 525V512H356V525"/>
+    <path d="M405 583V519Q405 504 420 504H454Q469 504 469 519V583Z"/><path d="M416 504V489H458V504"/>
+    <rect x="503" y="526" width="42" height="57" rx="4"/><path d="M513 526V513H535V526"/>
+    <path d="M578 583V520Q578 506 592 506H628Q642 506 642 520V583Z"/><path d="M590 506V491H630V506"/>
+    <rect x="670" y="530" width="32" height="53" rx="4"/><path d="M676 530V517H696V530"/>
+  </g>
+  <g fill="#BB654B" opacity=".9">
+    <circle cx="247" cy="250" r="5"/><circle cx="321" cy="412" r="5"/><circle cx="526" cy="557" r="5"/><circle cx="617" cy="243" r="5"/>
+  </g>
+  <path d="M78 678H822" stroke="#1C2924" stroke-width="2" opacity=".35"/>
+  <text x="450" y="700" text-anchor="middle" fill="#1C2924" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="5">ARCHIVO DE SOBREMESA</text>
+</svg>

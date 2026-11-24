@@ -1,0 +1,621 @@
+{
+  "cliente": {
+    "nombre": "Koldo Miranda",
+    "sector": "Gastronomía y restauración",
+    "contexto": "Demo interna en Bogotá, Colombia",
+    "conceptos": [
+      {
+        "id": "C01",
+        "nombre": "La Favorita",
+        "relacion": "Concepto gastronómico vinculado públicamente a Koldo Miranda",
+        "confirmacion_cliente": "no_confirmado"
+      },
+      {
+        "id": "C02",
+        "nombre": "Gallinas y Valientes",
+        "relacion": "Sociedad registrada con controlante Koldo Miranda Gimeno; propuesta gastronómica vinculada por prensa a Koldo Miranda",
+        "confirmacion_cliente": "no_confirmado"
+      }
+    ],
+    "estado_identidad": "provisional_publico_no_confirmado_por_cliente",
+    "nota_procedencia": "Solo se recibió 01_Prompt_Paquete_Canonico.md. No se recibió PERFIL_CLIENTE.md, dossier PRE-00A, último ZIP aceptado, cuestionario, CV ni materiales originales."
+  },
+  "idioma": "es-CO",
+  "evidencias": [
+    {
+      "id": "E001",
+      "hecho": "El directorio Foods and Wines from Spain presenta La Favorita como restaurante de cocina española y tapas; lo describe en torno a ingredientes tradicionales y una carta generosa de bebidas, reinventados por el chef Koldo Miranda. Publica la dirección Calle 65 Bis #4-12, Bogotá, Colombia, el teléfono +57 317 2588316 y enlaza el perfil @lafavoritarestaurante.",
+      "fuente": {
+        "nombre": "Foods and Wines from Spain / ICEX — La Favorita",
+        "url": "https://www.foodswinesfromspain.com/en/certified-restaurants-from-spain/restaurants/l/la-favorita",
+        "tipo": "directorio_institucional_y_certificacion",
+        "fecha_publicacion": null,
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Ficha consultada el 2026-11-23; la página no muestra fecha de alta o actualización.",
+      "certeza": "alta_para_lo_que_declara_el_directorio; vigencia_operativa_por_reconfirmar",
+      "atribucion": "Foods and Wines from Spain / ICEX",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No prueba horarios actuales, carta vigente, precios, disponibilidad, titularidad legal, condiciones de reserva ni autorización de uso de fotografías."
+    },
+    {
+      "id": "E002",
+      "hecho": "El Espectador publicó un perfil/entrevista sobre la apertura de La Favorita y su conexión con las raíces españolas de Koldo Miranda. La pieza describe el territorio culinario y menciona platos como rabo de toro, cochinillo, arroces, patatas al Cabrales y preparaciones de tradición española; contiene declaraciones atribuidas directamente al chef.",
+      "fuente": {
+        "nombre": "El Espectador — La Favorita: la brújula de sabor de Koldo Miranda para recorrer sus raíces",
+        "url": "https://www.elespectador.com/gastronomia-y-recetas/la-favorita-la-brujula-de-sabor-de-koldo-miranda-para-recorrer-sus-raices/",
+        "tipo": "entrevista_y_perfil_periodistico",
+        "fecha_publicacion": "2024-06-18",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Cobertura de junio de 2024.",
+      "certeza": "media_alta_para_el_testimonio_y_el_contexto_de_2024",
+      "atribucion": "El Espectador; declaraciones atribuidas a Koldo Miranda",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No prueba que los platos citados sigan en la carta actual, que estén disponibles hoy ni que la descripción sea un claim aprobado por el cliente."
+    },
+    {
+      "id": "E003",
+      "hecho": "La crónica de 7 Caníbales presenta La Favorita como “Comidas y Licores La Favorita, Los Ultramarinos de Koldo Miranda” y describe estanterías de conservas, aceites, licores, encurtidos, viandas, mobiliario antiguo, producto fresco y elementos de tasca tradicional. Incluye una declaración de Koldo sobre ajustes de sala en los primeros meses.",
+      "fuente": {
+        "nombre": "7 Caníbales — Koldo Miranda en La Favorita, asentar raíces y madurar en Bogotá",
+        "url": "https://www.7canibales.com/restaurantes/koldo-miranda-favorita/",
+        "tipo": "cronica_gastronomica_observacional",
+        "fecha_publicacion": "2024-10-17",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Crónica de octubre de 2024, aproximadamente seis meses después de la apertura según el texto.",
+      "certeza": "media_alta_para_la_observacion_periodistica_de_2024",
+      "atribucion": "Daniel Guerrero / 7 Caníbales; observaciones del periodista y declaraciones atribuidas al chef",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No prueba el estado actual del interior, decoración, mobiliario, servicio, inventario o carta. Las fotos del artículo no se incorporan a medios."
+    },
+    {
+      "id": "E004",
+      "hecho": "La República describe La Favorita como una propuesta inspirada en las tiendas de ultramarinos españolas y recoge una declaración atribuida a Koldo Miranda sobre reivindicar esas tiendas centenarias. La nota sitúa el restaurante en Chapinero Alto.",
+      "fuente": {
+        "nombre": "La República — Conozca el menú de La Favorita, el restaurante español que debutará en BogotáEats",
+        "url": "https://www.larepublica.co/ocio/el-menu-de-la-favorita-restaurante-espanol-para-el-bogotaeats-3939957",
+        "tipo": "nota_periodistica_con_declaracion_del_chef",
+        "fecha_publicacion": "2024-08-30",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Cobertura de agosto de 2024, vinculada a BogotáEats a Cielo Abierto.",
+      "certeza": "media_alta_para_el_concepto_atribuido",
+      "atribucion": "La República; declaración atribuida a Koldo Miranda",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No prueba que el menú publicado entonces sea el actual ni que la participación en el evento siga vigente."
+    },
+    {
+      "id": "E005",
+      "hecho": "Diners entrevistó a Koldo Miranda como chef de La Favorita y lo presentó como embajador de la charcutería española en Colombia. El artículo describe un menú especial que combina embutidos y chacinas españolas con productos de la sabana cundiboyacense y recoge declaraciones directas del chef sobre tradición y raíces.",
+      "fuente": {
+        "nombre": "Revista Diners — “Estamos siendo una bandera de nuestra cultura gastronómica”, dice el chef Koldo Miranda, embajador de la charcutería española",
+        "url": "https://revistadiners.com.co/estilo-de-vida/koldo-charcuteria-espana/",
+        "tipo": "entrevista_periodistica",
+        "fecha_publicacion": "2025-05-29",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Cobertura de mayo de 2025.",
+      "certeza": "media_alta_para_el_testimonio_y_el_contexto_de_la_campana",
+      "atribucion": "Diners; declaraciones atribuidas a Koldo Miranda",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No prueba que el menú especial continúe disponible, que el cargo de embajador siga vigente ni que sea un premio propio del restaurante."
+    },
+    {
+      "id": "E006",
+      "hecho": "La Oficina Económica y Comercial de la Embajada de España en Colombia publicó un balance de la campaña 2025 de promoción de charcutería española impulsada con ICEX e Interporc. La publicación afirma que Koldo Miranda fue nombrado embajador de marca y que La Favorita acogió un showcooking de lanzamiento para medios.",
+      "fuente": {
+        "nombre": "Oficina Económica y Comercial de la Embajada de España en Colombia — publicación de balance de campaña en LinkedIn",
+        "url": "https://es.linkedin.com/posts/miguel-roses-ariza-816589218_promoci%C3%B3nexterior-interporc-charcuter%C3%ADaespa%C3%B1ola-activity-7404919114772946946-2gMl",
+        "tipo": "publicacion_institucional_primaria",
+        "fecha_publicacion": "2026 (fecha exacta no visible en la captura consultada; el texto describe la campaña 2025)",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Balance institucional de una campaña desarrollada en 2025.",
+      "certeza": "alta_para_el_registro_institucional_de_la_campana",
+      "atribucion": "Oficina Económica y Comercial de la Embajada de España en Colombia; ICEX; Interporc",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No prueba un reconocimiento gastronómico independiente, una certificación Michelin ni que la campaña continúe vigente."
+    },
+    {
+      "id": "E007",
+      "hecho": "El Boletín 7644 de Registros de la Cámara de Comercio de Bogotá informa la constitución de GALLINAS Y VALIENTES GASTRONÓMICA SAS, inscrita el 11 de agosto de 2025, y una inscripción según la cual Koldo Miranda Gimeno comunica que ejerce situación de control sobre la sociedad subordinada.",
+      "fuente": {
+        "nombre": "Cámara de Comercio de Bogotá — Boletín 7644 de Registros, 11/08/2025, publicado 12/08/2025",
+        "url": "https://assets.ctfassets.net/n1ptkpqt763u/2gNOuoZu9ZlW5TSo2w5fds/7e4a111e15b327f693a7f84588d6c88c/_7644__11_de_Agosto_de_2025_publicado_12_de_Agosto_de_2025.pdf",
+        "tipo": "registro_mercantil_primario",
+        "fecha_publicacion": "2025-08-12",
+        "fecha_consulta": "2026-11-23",
+        "referencias": "páginas impresas 109 y 115 del boletín"
+      },
+      "fecha_contexto": "Inscripciones registrales del 11 de agosto de 2025.",
+      "certeza": "alta_para_el_hecho_registral",
+      "atribucion": "Cámara de Comercio de Bogotá",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No prueba por sí solo la apertura al público, dirección de atención, menú, concepto culinario, marca comercial visible, horarios, precios ni reserva."
+    },
+    {
+      "id": "E008",
+      "hecho": "Una nota de Única FM publicada el 6 de noviembre de 2026 presenta Gallinas y Valientes como nueva propuesta gastronómica de Koldo Miranda en el norte de Bogotá; la bajada dice que está a pocos pasos del parque El Virrey y que rinde homenaje a la tortilla vaga de Hormaechea. El contenido accesible en la consulta se limita al titular y la bajada.",
+      "fuente": {
+        "nombre": "Única FM — Gallinas y Valientes, la nueva propuesta gastronómica del chef español Koldo Miranda en el norte de Bogotá",
+        "url": "https://unicafmradio.com/2026/11/06/gallinas-y-valientes-la-nueva-propuesta-gastronomica-del-chef-espanol-koldo-miranda-en-el-norte-de-bogota/",
+        "tipo": "nota_de_prensa_secundaria_breve",
+        "fecha_publicacion": "2026-11-06",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Publicación de noviembre de 2026.",
+      "certeza": "baja_a_media; requiere_corrobacion_primaria",
+      "atribucion": "Única FM",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente_con_verificacion_limitada",
+      "no_prueba": "No prueba la receta, ingredientes, carta, precios, ubicación exacta, horarios, fotos, reservas ni que el restaurante use oficialmente esa descripción."
+    },
+    {
+      "id": "E009",
+      "hecho": "El País explica la tortilla vaga y atribuye su creación al cocinero Sacha Hormaechea. La pieza describe una tortilla cuajada por un lado y coronada con otros ingredientes.",
+      "fuente": {
+        "nombre": "El País — 10 bocados para comerse Madrid",
+        "url": "https://elpais.com/gastronomia/2025-05-02/10-bocados-para-comerte-madrid-de-los-minutejos-y-un-buen-bocata-de-calamares-al-dumpling-de-cocido-de-dabiz-munoz.html",
+        "tipo": "articulo_gastronomico_secundario_con_atribucion_al_cocinero",
+        "fecha_publicacion": "2025-05-02",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Artículo de mayo de 2025.",
+      "certeza": "media_para_la_atribucion_periodistica_y_la_explicacion_del_termino",
+      "atribucion": "El País; explicación atribuida a Sacha Hormaechea",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "contexto_gastronomico_documentado",
+      "no_prueba": "No prueba que Gallinas y Valientes replique exactamente esa receta, qué ingredientes utiliza, ni que exista colaboración o autorización de Sacha Hormaechea."
+    },
+    {
+      "id": "E010",
+      "hecho": "7 Caníbales afirma que entre 2004 y 2012 Koldo Miranda estuvo al frente del restaurante homónimo en Castrillón (Avilés) y que con ese local consiguió su primera estrella Michelin en 2006.",
+      "fuente": {
+        "nombre": "7 Caníbales — Koldo Miranda cumple 10 años de trayectoria gastronómica",
+        "url": "https://www.7canibales.com/restaurantes/koldo-miranda-cumple-10-anos-de-trayectoria-gastronomica/",
+        "tipo": "nota_biografica_periodistica_secundaria",
+        "fecha_publicacion": "2013-07-11",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Artículo retrospectivo de julio de 2013.",
+      "certeza": "media_como_referencia_periodistica; no_suficiente_para_claim_publicitario",
+      "atribucion": "Redacción / 7 Caníbales",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "claim_bloqueado_pendiente_de_ficha_oficial",
+      "no_prueba": "No aporta la ficha oficial de Michelin, número de edición, año de guía, fecha de concesión ni una prueba primaria de la distinción."
+    },
+    {
+      "id": "E011",
+      "hecho": "Una transcripción histórica de terceros de las listas Michelin España-Portugal no muestra Koldo Miranda en su sección de 2006 y sí lo incluye bajo Avilés en su sección de 2007. Es un indicio de posible desfase entre año de concesión y edición de guía, no una prueba oficial.",
+      "fuente": {
+        "nombre": "Cancela.org — Restaurantes una estrella Michelin en la Guía España-Portugal 1929-2026",
+        "url": "https://www.cancela.org/index.php/articulos-y-estadisticas/444-25-restaurantes-una-estrella-michelin-en-la-guia-espana-portugal-1929-2025",
+        "tipo": "transcripcion_historica_terciaria",
+        "fecha_publicacion": null,
+        "fecha_consulta": "2026-11-23",
+        "referencias": "secciones de guía 2006 y 2007"
+      },
+      "fecha_contexto": "Consulta de una transcripción histórica de terceros.",
+      "certeza": "baja_a_media; no_es_fuente_michelin_oficial",
+      "atribucion": "Cancela.org",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "indicio_de_inconsistencia; claim_bloqueado",
+      "no_prueba": "No prueba que el restaurante no tuviera una estrella en 2006 ni sustituye la guía oficial; la transcripción puede tener omisiones o diferencias de edición."
+    },
+    {
+      "id": "E012",
+      "hecho": "Una entrevista de La Voz de Galicia de octubre de 2006 identifica el restaurante Koldo Miranda en La Cruz de Illas, 20, Castrillón, y menciona el Premio Revelación de Madrid Fusión. La pieza no aporta una ficha Michelin.",
+      "fuente": {
+        "nombre": "La Voz de Galicia — Koldo Miranda: «El Premio Revelación fue como una consagración, un bombón»",
+        "url": "https://www.lavozdegalicia.es/amp/noticia/espana/2006/10/05/koldo-miranda-premio-revelacion-consagracion-bombon/0003_5167779.htm",
+        "tipo": "entrevista_periodistica",
+        "fecha_publicacion": "2006-10-05",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Entrevista de octubre de 2006.",
+      "certeza": "media_alta_para_la_identificacion_periodistica_del_restaurante_historico",
+      "atribucion": "La Voz de Galicia; declaraciones atribuidas a Koldo Miranda",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No prueba una distinción Michelin; el Premio Revelación de Madrid Fusión es un reconocimiento distinto."
+    },
+    {
+      "id": "E013",
+      "hecho": "El Tiempo publicó un vídeo de visita a La Favorita y la presentó como homenaje a los ultramarinos españoles; la descripción vincula el local con Koldo Miranda y el perfil @lafavoritarestaurante.",
+      "fuente": {
+        "nombre": "El Tiempo — La Favorita, un restaurante homenaje a los 'ultramarinos' españoles",
+        "url": "https://www.youtube.com/watch?v=vbYOeIPkjIo",
+        "tipo": "video_periodistico_de_visita",
+        "fecha_publicacion": "2024-08-01",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Vídeo de agosto de 2024.",
+      "certeza": "media_para_la_cobertura_y_el_contexto_de_2024",
+      "atribucion": "El Tiempo / Mauricio Silva Guzmán",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No concede derechos de uso de las imágenes del vídeo ni prueba el estado actual del local."
+    },
+    {
+      "id": "E014",
+      "hecho": "Caracol Radio presentó La Favorita como una propuesta de comida ultramarina y de homenaje a la gastronomía tradicional española, con recetas recuperadas y preparaciones heredadas de la familia del chef. La nota publicó una dirección en la calle 65 Bis #4-12 y mencionó patatas al Cabrales y tartar de res como imperdibles en ese momento.",
+      "fuente": {
+        "nombre": "Caracol Radio — La Favorita, la nueva propuesta gastronómica del chef Koldo Miranda",
+        "url": "https://caracol.com.co/2024/07/01/la-favorita-la-nueva-propuesta-gastronomica-del-chef-koldo-miranda/",
+        "tipo": "nota_periodistica",
+        "fecha_publicacion": "2024-07-01",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Cobertura de julio de 2024.",
+      "certeza": "media_para_el_contexto_y_los_datos_publicados_en_2024",
+      "atribucion": "Caracol Radio",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "documentado_publicamente",
+      "no_prueba": "No prueba que la dirección, platos o condiciones operativas sigan vigentes."
+    },
+    {
+      "id": "E015",
+      "hecho": "La crónica de 7 Caníbales del 17/10/2024 incluye fotografías identificadas como comedor de La Favorita, arroz con setas/tuétano/tartar, morcilla de Burgos con huevo de codorniz, Koldo trincha cochinillo y una imagen de la rotulación del local. Las imágenes M001–M005 se conservan como referencias remotas, no como archivos cedidos por el cliente.",
+      "fuente": {
+        "nombre": "7 Caníbales — Koldo Miranda en La Favorita, asentar raíces y madurar en Bogotá",
+        "url": "https://www.7canibales.com/restaurantes/koldo-miranda-favorita/",
+        "tipo": "cronica_periodistica_con_fotografias",
+        "fecha_publicacion": "2024-10-17",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Crónica publicada el 17/10/2024; pies de foto y URLs de imagen revisados el 23/11/2026.",
+      "certeza": "alta_para_que_las_imagenes_aparecen_en_la_cronica_y_se_atribuyen_a_la_favorita; no_equivale_a_autorizacion_de_uso",
+      "atribucion": "7 Caníbales; D. Guerrero figura como crédito en algunos pies de foto; otros pies no muestran crédito individual.",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "referencia_visual_externa_solo_referencia",
+      "no_prueba": "No prueba vigencia de platos o estado actual del local, no demuestra que el cliente haya entregado las fotos y no concede derechos de reproducción o publicación."
+    },
+    {
+      "id": "E016",
+      "hecho": "El Espectador publicó fotografías de Koldo Miranda y de preparaciones en el contexto de la apertura de La Favorita; la fotografía principal consultada lleva crédito Oscar Perez. La imagen M006 se conserva como referencia remota y atribuida.",
+      "fuente": {
+        "nombre": "El Espectador — La Favorita: la brújula de sabor de Koldo Miranda para recorrer sus raíces",
+        "url": "https://www.elespectador.com/gastronomia-y-recetas/la-favorita-la-brujula-de-sabor-de-koldo-miranda-para-recorrer-sus-raices/",
+        "tipo": "perfil_periodistico_con_fotografias",
+        "fecha_publicacion": "2024-06-18",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Artículo de 18/06/2024; pie de foto principal y retrato consultados el 23/11/2026.",
+      "certeza": "alta_para_el_contexto_de_la_fotografia_publicada; no_equivale_a_autorizacion_de_uso",
+      "atribucion": "El Espectador; Oscar Perez (crédito indicado por el medio).",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "referencia_visual_externa_solo_referencia",
+      "no_prueba": "No concede derechos de reproducción o publicación ni confirma el estado actual del restaurante."
+    },
+    {
+      "id": "E017",
+      "hecho": "EL PAÍS publicó el 14/01/2025 una fotografía de la tortilla vaga del restaurante Sacha, atribuida a Inma Flores, y explica que es una preparación creada por Sacha Hormaechea. M007 se incluye solo como referencia gastronómica externa para contextualizar la mención de la tortilla vaga en Gallinas y Valientes.",
+      "fuente": {
+        "nombre": "EL PAÍS — La tortilla que nació por un capricho de Rafael Moneo y se ha convertido en la más copiada de España",
+        "url": "https://elpais.com/gastronomia/restaurantes/2025-01-14/la-tortilla-que-nacio-por-un-capricho-de-rafael-moneo-y-se-ha-convertido-en-la-mas-copiada-de-espana.html",
+        "tipo": "reportaje_gastronomico_con_fotografia",
+        "fecha_publicacion": "2025-01-14",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Reportaje de 14/01/2025; pie de foto atribuido a Inma Flores.",
+      "certeza": "alta_para_que_la_foto_corresponde_a_sacha_y_su_tortilla; nula_como_prueba_de_que_sea_foto_de_gallinas_y_valientes",
+      "atribucion": "EL PAÍS; Inma Flores.",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "referencia_visual_externa_solo_referencia",
+      "no_prueba": "No representa a Gallinas y Valientes, no prueba su receta, ingredientes o presentación y no implica colaboración ni autorización entre restaurantes o cocineros."
+    },
+    {
+      "id": "E018",
+      "hecho": "La República publicó una fotografía principal de La Favorita en su reportaje del 26/07/2024; el artículo acredita la imagen principal a The Boy Agency. La imagen M008 muestra el ambiente/rotulación de ultramarinos y se conserva como referencia visual externa.",
+      "fuente": {
+        "nombre": "La República — La Favorita, un restaurante con cocina española auténtica, para disfrutar todo el día",
+        "url": "https://www.larepublica.co/ocio/la-favorita-un-restaurante-con-cocina-espanola-autentica-para-disfrutar-todo-el-dia-3915726",
+        "tipo": "reportaje_gastronomico_con_fotografia",
+        "fecha_publicacion": "2024-07-26",
+        "fecha_consulta": "2026-11-23"
+      },
+      "fecha_contexto": "Artículo de 26/07/2024; crédito de la imagen principal visible en la página.",
+      "certeza": "alta_para_el_contexto_de_la_fotografia_publicada; no_equivale_a_autorizacion_de_uso",
+      "atribucion": "La República; The Boy Agency (imagen principal).",
+      "confirmacion_cliente": "no_confirmado",
+      "estado": "referencia_visual_externa_solo_referencia",
+      "no_prueba": "No concede derechos de reproducción o publicación ni confirma el estado actual del restaurante."
+    }
+  ],
+  "highlights": [
+    {
+      "id": "H01",
+      "concepto_id": "C01",
+      "titulo": "La Favorita — ultramarinos y cocina española de raíz",
+      "texto_breve": "Una propuesta de cocina española y tapas que recupera el imaginario de los ultramarinos: producto, recetas tradicionales y una mesa para compartir.",
+      "tipo": "highlight_narrativo_no_merito",
+      "medio_ideal": "Fotografía original y autorizada del mostrador, estanterías, producto o sala; como respaldo, un plato actual identificado por el restaurante.",
+      "evidencias": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E013",
+        "E014"
+      ],
+      "estado": "candidato_documentado_publicamente_no_confirmado_por_cliente",
+      "limite": "Los platos mencionados en prensa son referencias históricas de 2024 y no deben presentarse como carta vigente."
+    },
+    {
+      "id": "H02",
+      "concepto_id": "C02",
+      "titulo": "Gallinas y Valientes — la tortilla vaga como referencia",
+      "texto_breve": "Un segundo concepto gastronómico vinculado públicamente a Koldo Miranda y asociado por una nota de noviembre de 2026 a un homenaje a la tortilla vaga de Sacha Hormaechea.",
+      "tipo": "highlight_narrativo_no_merito",
+      "medio_ideal": "Fotografía original y autorizada de la preparación que el restaurante confirme como representativa y una fotografía real de sala.",
+      "evidencias": [
+        "E007",
+        "E008",
+        "E009"
+      ],
+      "estado": "candidato_con_verificacion_limitada_pendiente_de_fuente_primaria",
+      "limite": "No hay carta, ingredientes, dirección operativa, fotos, precios ni horarios confirmados. La referencia a la tortilla vaga no prueba que se replique exactamente la receta de Sacha Hormaechea."
+    }
+  ],
+  "modulos": [
+    {
+      "id": "M01",
+      "tipo": "hero_diptico",
+      "nombre": "Dos conceptos, dos identidades",
+      "aplicable": true,
+      "contenido": [
+        "C01",
+        "C02"
+      ],
+      "funcion": "Presentar ambos restaurantes con igual jerarquía y una conexión editorial atribuida a Koldo Miranda.",
+      "medios": "No hay fotografías; usar alternativa tipográfica editorial.",
+      "evidencias": [
+        "E001",
+        "E007",
+        "E008"
+      ]
+    },
+    {
+      "id": "M02",
+      "tipo": "comparacion",
+      "nombre": "Comparar restaurantes",
+      "aplicable": true,
+      "contenido": [
+        "C01",
+        "C02"
+      ],
+      "funcion": "Comparar territorios documentados sin inventar precio, carta, horarios, disponibilidad ni servicios.",
+      "medios": "No requiere fotografía; priorizar texto claro y estado de verificación.",
+      "evidencias": [
+        "E001",
+        "E002",
+        "E003",
+        "E007",
+        "E008",
+        "E009"
+      ]
+    },
+    {
+      "id": "M03",
+      "tipo": "detalle_restaurante",
+      "nombre": "La Favorita",
+      "aplicable": true,
+      "contenido": [
+        "H01"
+      ],
+      "funcion": "Profundizar en cocina española/tapas y el territorio de ultramarinos.",
+      "medios": "Pendientes fotos originales y autorizadas.",
+      "evidencias": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E013",
+        "E014"
+      ]
+    },
+    {
+      "id": "M04",
+      "tipo": "detalle_restaurante",
+      "nombre": "Gallinas y Valientes",
+      "aplicable": true,
+      "contenido": [
+        "H02"
+      ],
+      "funcion": "Profundizar con cautela en la asociación pública con la tortilla vaga, dejando visibles las limitaciones de verificación.",
+      "medios": "Pendientes fuente primaria, carta, fotos originales y datos operativos.",
+      "evidencias": [
+        "E007",
+        "E008",
+        "E009"
+      ]
+    }
+  ],
+  "acciones": [
+    {
+      "id": "A01",
+      "nombre": "Explorar La Favorita",
+      "tipo": "navegacion_interna",
+      "destino": "M03",
+      "estado": "operativa_en_demo_estatica",
+      "resultado_observable": "La persona abre el detalle de La Favorita y puede volver a la comparación."
+    },
+    {
+      "id": "A02",
+      "nombre": "Explorar Gallinas y Valientes",
+      "tipo": "navegacion_interna",
+      "destino": "M04",
+      "estado": "operativa_en_demo_estatica",
+      "resultado_observable": "La persona abre el detalle de Gallinas y Valientes y puede volver a la comparación."
+    },
+    {
+      "id": "A03",
+      "nombre": "Reservar La Favorita",
+      "tipo": "cta_comercial_conceptual",
+      "destino": null,
+      "estado": "no_operativa_pendiente_de_enlace_real",
+      "resultado_observable": "Ninguna reserva se envía ni confirma. No simular disponibilidad."
+    },
+    {
+      "id": "A04",
+      "nombre": "Reservar Gallinas y Valientes",
+      "tipo": "cta_comercial_conceptual",
+      "destino": null,
+      "estado": "no_operativa_pendiente_de_enlace_real",
+      "resultado_observable": "Ninguna reserva se envía ni confirma. No simular disponibilidad."
+    }
+  ],
+  "fecha_revision": "2026-11-23",
+  "limitaciones": {
+    "base_documental": [
+      "01_Prompt_Paquete_Canonico.md"
+    ],
+    "faltantes": [
+      "último ZIP aceptado",
+      "PERFIL_CLIENTE.md",
+      "dossier PRE-00A",
+      "cuestionario y correcciones",
+      "CV",
+      "fotos y vídeos",
+      "logos",
+      "cartas",
+      "precios",
+      "horarios",
+      "enlaces reales de reserva"
+    ],
+    "claim_michelin_2006": "bloqueado hasta localizar y comprobar la ficha histórica oficial exacta de Michelin",
+    "medios": "No se recibieron archivos originales del cliente. Se localizaron 8 referencias visuales remotas M001–M008: M001–M006 y M008 son fotos de prensa de La Favorita/Koldo en contexto de La Favorita; M007 es una foto de la tortilla de Sacha y NO de Gallinas y Valientes. Se muestran en medios/VER_FOTOS.html; no se descargaron ni incrustaron en el ZIP y no hay autorización de publicación confirmada. No se localizó foto propia verificable de Gallinas y Valientes.",
+    "publicacion": "No publicar ni enviar; demo interna pendiente de validación del cliente."
+  },
+  "medios_referencia": [
+    {
+      "id": "M001",
+      "nombre": "Comedor de La Favorita",
+      "concepto": "La Favorita",
+      "url_imagen": "https://www.7canibales.com/wp-content/uploads/sites/2/2024/10/La-Favorita-en-Bogota-356x400.webp",
+      "url_fuente": "https://www.7canibales.com/restaurantes/koldo-miranda-favorita/",
+      "fuente": "7 Caníbales",
+      "fecha_publicacion": "2024-10-17",
+      "credito": "No visible en el pie de foto consultado; artículo firmado por Daniel Guerrero.",
+      "orientacion": "vertical",
+      "resolucion": "356x400 px (según URL publicada)",
+      "etiqueta": "solo_referencia",
+      "uso_recomendado": "Imagen de ambiente real de La Favorita para demo interna, con crédito/enlace a la crónica.",
+      "no_prueba": "No prueba el estado actual del local ni concede derechos de reproducción o publicación."
+    },
+    {
+      "id": "M002",
+      "nombre": "Arroz con setas, tuétano y tartar",
+      "concepto": "La Favorita",
+      "url_imagen": "https://www.7canibales.com/wp-content/uploads/sites/2/2024/10/Arroz-setas-tuetano-tartar-copia-400x300.webp",
+      "url_fuente": "https://www.7canibales.com/restaurantes/koldo-miranda-favorita/",
+      "fuente": "7 Caníbales",
+      "fecha_publicacion": "2024-10-17",
+      "credito": "D. Guerrero (crédito indicado en el pie de foto).",
+      "orientacion": "horizontal",
+      "resolucion": "400x300 px (según URL publicada)",
+      "etiqueta": "solo_referencia",
+      "uso_recomendado": "Foto de plato descrito en la crónica de 2024; solo como referencia histórica, no como carta vigente.",
+      "no_prueba": "No prueba que el plato siga en carta ni concede derechos de reproducción o publicación."
+    },
+    {
+      "id": "M003",
+      "nombre": "Morcilla de Burgos con huevo frito de codorniz",
+      "concepto": "La Favorita",
+      "url_imagen": "https://www.7canibales.com/wp-content/uploads/sites/2/2024/10/Morcilla-de-Burgos-con-huevo-frito-de-codorniz-400x380.webp",
+      "url_fuente": "https://www.7canibales.com/restaurantes/koldo-miranda-favorita/",
+      "fuente": "7 Caníbales",
+      "fecha_publicacion": "2024-10-17",
+      "credito": "D. Guerrero (crédito indicado en el pie de foto).",
+      "orientacion": "casi cuadrada",
+      "resolucion": "400x380 px (según URL publicada)",
+      "etiqueta": "solo_referencia",
+      "uso_recomendado": "Foto de plato descrito en la crónica de 2024; solo como referencia histórica, no como carta vigente.",
+      "no_prueba": "No prueba que el plato siga en carta ni concede derechos de reproducción o publicación."
+    },
+    {
+      "id": "M004",
+      "nombre": "Koldo Miranda trincha y emplata el cochinillo asado",
+      "concepto": "La Favorita / retrato de oficio",
+      "url_imagen": "https://www.7canibales.com/wp-content/uploads/sites/2/2024/10/Koldo-Miranda-trincha-y-emplata-el-cochinillo-asado.-400x300.webp",
+      "url_fuente": "https://www.7canibales.com/restaurantes/koldo-miranda-favorita/",
+      "fuente": "7 Caníbales",
+      "fecha_publicacion": "2024-10-17",
+      "credito": "No visible en el pie de foto consultado; artículo firmado por Daniel Guerrero.",
+      "orientacion": "horizontal",
+      "resolucion": "400x300 px (según URL publicada)",
+      "etiqueta": "solo_referencia",
+      "uso_recomendado": "Retrato contextual de Koldo trabajando en La Favorita según la crónica; no reutilizar como foto de Gallinas y Valientes.",
+      "no_prueba": "No prueba una práctica actual ni concede derechos de reproducción o publicación."
+    },
+    {
+      "id": "M005",
+      "nombre": "Rótulo ilustrado La Favorita / Coloniales y Ultramarinos",
+      "concepto": "La Favorita",
+      "url_imagen": "https://www.7canibales.com/wp-content/uploads/sites/2/2024/10/La-Favorita-copia-353x400.webp",
+      "url_fuente": "https://www.7canibales.com/restaurantes/koldo-miranda-favorita/",
+      "fuente": "7 Caníbales",
+      "fecha_publicacion": "2024-10-17",
+      "credito": "No visible en el pie de foto consultado.",
+      "orientacion": "vertical",
+      "resolucion": "353x400 px (según URL publicada)",
+      "etiqueta": "solo_referencia",
+      "uso_recomendado": "Referencia del lenguaje visual/rotulación publicado en la crónica; no tratar como archivo de logo oficial.",
+      "no_prueba": "No es un archivo maestro de marca ni concede derechos de reproducción o publicación."
+    },
+    {
+      "id": "M008",
+      "nombre": "Ambiente de La Favorita con rótulo de vinos y licores",
+      "concepto": "La Favorita",
+      "url_imagen": "https://img.lalr.co/cms/2024/07/25174336/La-Favorita-un-restaurante-con-cocina-espanola-autentica-para-disfrutar-todo-el-dia.jpg?size=xl",
+      "url_fuente": "https://www.larepublica.co/ocio/la-favorita-un-restaurante-con-cocina-espanola-autentica-para-disfrutar-todo-el-dia-3915726",
+      "fuente": "La República",
+      "fecha_publicacion": "2024-07-26",
+      "credito": "The Boy Agency (crédito indicado para la imagen principal del artículo).",
+      "orientacion": "vertical/cuadrada en vista de búsqueda",
+      "resolucion": "No verificada en el original; URL con variante size=xl",
+      "etiqueta": "solo_referencia",
+      "uso_recomendado": "Referencia visual de ambiente/rotulación de ultramarinos de La Favorita en cobertura de 2024; mantener crédito y enlace.",
+      "no_prueba": "No prueba el estado actual del local ni concede derechos de reproducción o publicación."
+    },
+    {
+      "id": "M006",
+      "nombre": "Koldo Miranda en La Favorita",
+      "concepto": "La Favorita / retrato del chef",
+      "url_imagen": "https://www.elespectador.com/resizer/v2/I2GTZL3ZSRBZHEEDTKILY3YDWI.JPG?auth=a29a33cc7d5fad3d7f91c1f7b79270908ab04f20772ae800a0d149cae5830065&height=613&quality=60&smart=true&width=920",
+      "url_fuente": "https://www.elespectador.com/gastronomia-y-recetas/la-favorita-la-brujula-de-sabor-de-koldo-miranda-para-recorrer-sus-raices/",
+      "fuente": "El Espectador",
+      "fecha_publicacion": "2024-06-18",
+      "credito": "Oscar Perez (crédito indicado por El Espectador).",
+      "orientacion": "horizontal",
+      "resolucion": "920x613 px (según URL de imagen)",
+      "etiqueta": "solo_referencia",
+      "uso_recomendado": "Retrato del chef contextualizado por El Espectador en la apertura de La Favorita; mantener crédito visible.",
+      "no_prueba": "No concede derechos de reproducción o publicación ni confirma el estado actual del restaurante."
+    },
+    {
+      "id": "M007",
+      "nombre": "Tortilla vaga de Sacha (referencia de la técnica)",
+      "concepto": "Referencia gastronómica externa; NO es Gallinas y Valientes",
+      "url_imagen": "https://imagenes.elpais.com/resizer/v2/X2J57JVWDNHDBPQADJ7H7GJBOM.JPG?auth=068fcbca450d0b2f55aff78b6abc63e775840692fceebb0ffcad522ac893aeeb&focal=4060%2C4135&height=980&width=980",
+      "url_fuente": "https://elpais.com/gastronomia/restaurantes/2025-01-14/la-tortilla-que-nacio-por-un-capricho-de-rafael-moneo-y-se-ha-convertido-en-la-mas-copiada-de-espana.html",
+      "fuente": "EL PAÍS",
+      "fecha_publicacion": "2025-01-14",
+      "credito": "Inma Flores (crédito indicado en el pie de foto).",
+      "orientacion": "cuadrada",
+      "resolucion": "980x980 px (según URL de imagen)",
+      "etiqueta": "solo_referencia",
+      "uso_recomendado": "Únicamente como referencia visual externa para explicar el antecedente de la tortilla vaga de Sacha; rotular en pantalla que no es una foto de Gallinas y Valientes.",
+      "no_prueba": "No representa a Gallinas y Valientes, no prueba su receta/emplatado y no implica colaboración ni autorización."
+    }
+  ]
+}

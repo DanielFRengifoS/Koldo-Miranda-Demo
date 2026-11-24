@@ -1,0 +1,12 @@
+@font-face{font-family:Editorial;src:url('Editorial.woff') format('woff');font-display:swap;font-style:normal;font-weight:400}
+@font-face{font-family:Editorial;src:url('EditorialItalic.woff') format('woff');font-display:swap;font-style:italic;font-weight:400}
+@font-face{font-family:Grotesk;src:url('Grotesk.woff') format('woff');font-display:swap;font-weight:400}
+@font-face{font-family:Grotesk;src:url('GroteskBold.woff') format('woff');font-display:swap;font-weight:700}
+@font-face{font-family:Condensed;src:url('Condensed.woff') format('woff');font-display:swap;font-weight:700}
+@font-face{font-family:Atlas;src:url('Atlas.woff') format('woff');font-display:swap;font-weight:700}
+@font-face{font-family:Mono;src:url('Mono.woff') format('woff');font-display:swap;font-weight:400}
+img{max-width:100%}
+.brand-system{font-family:Grotesk,Arial,sans-serif;font-size:16px}
+.brand-system :is(a,button):focus-visible{outline:3px solid currentColor;outline-offset:5px}
+.brand-system p{text-wrap:pretty}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important}}

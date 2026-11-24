@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 570" role="img" aria-labelledby="t d"><title id="t">Rótulo tipográfico de demo</title><desc id="d">Diseño tipográfico original de demo, no es el rótulo ni el logo oficial de La Favorita.</desc>
+<rect width="500" height="570" fill="#e2d7c4"/><rect x="30" y="30" width="440" height="510" fill="#f7f3eb" stroke="#59624b" stroke-width="3"/>
+<path d="M60 92h380M60 470h380" stroke="#a84d35" stroke-width="3"/>
+<text x="250" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="4" fill="#59624b">COMPOSICIÓN TIPOGRÁFICA</text>
+<text x="250" y="265" text-anchor="middle" font-family="Georgia,serif" font-size="58" fill="#27251f">La Favorita</text>
+<text x="250" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" letter-spacing="3" fill="#a84d35">COLONIALES</text>
+<text x="250" y="346" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" letter-spacing="3" fill="#a84d35">Y ULTRAMARINOS</text>
+<text x="250" y="505" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" fill="#706a60">NO ES MARCA OFICIAL</text>
+</svg>
